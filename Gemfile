@@ -12,6 +12,10 @@ gem 'pg', group: :production
 # Add 12 actor for Heroku
 gem 'rails_12factor', group: :production
 
+# use bootstrap for improving look & feel
+
+gem 'bootstrap-sass'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
