@@ -7,7 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 growth_hacking = Product.create(
-	 title: "Growth Hacking", 
+	 
+     title: "Growth Hacking", 
 	 subtitle: "Crash Course", 
 	 author: "Mattan Griffel",
 	 author_image_n: "teacher-image.jpg",
