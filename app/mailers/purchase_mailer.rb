@@ -3,7 +3,8 @@ class PurchaseMailer < ActionMailer::Base
 	default from: "One Month Commerce <commerce@onemonth.com>"
 
 def purchase_receipt purchase
-@purchase = purchase
+   @purchase = purchase
+   @product = Product.find_by_id(purchase.product_id)
    mail to: purchase.email, subject: "Thanks for your purchase!"
 end
 end
