@@ -8,18 +8,18 @@
 
 growth_hacking = Product.create(
 	 
-     title: "Growth Hacking", 
-	 subtitle: "Crash Course", 
+     title: "Growth Hacking Monthly", 
+	 subtitle: "Ongoing Course", 
 	 author: "Mattan Griffel",
 	 author_image_n: "teacher-image.jpg",
-     length: "30 minutes",
+     length: "36 months",
 	 price: "4.99", 
-     sku: "GROHACK1",
-     details: "You'll get one video",
+     sku: "GROHACK2",
+     details: "We'll charge you monthly for unlimited acces to mentoring team",
      download_url: "https://s3-eu-west-1.amazonaws.com/fitxers-curs/WordPressSecurityWhitePaper.pdf", 
 	 description: %{ <p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
-            <p>In this talk, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
+            <p>In this series, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
             <p><strong>What You'll Learn</strong></p>
             <ul class="no-indent">
                 <li>What is a growth hacker?</li>
